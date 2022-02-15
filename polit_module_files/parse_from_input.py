@@ -3,6 +3,8 @@ user_input = input("usr_input>>> ")
 split_usr_input = user_input.split()
 print(split_usr_input)
 
+end = None
+
 
 ################################################################################
 
@@ -25,11 +27,12 @@ time_keys = {
 }
 
 occupations_keys = {
-    "prezydent": ["prezydent", "prezydentem"],
-    "posel": ["poseł", "posłem"],
+    "prezydent": ["prezydent", "prezydentem", "prezydentów"],
+    "posel": ["poseł", "posłem", "posłów"],
     "prezes": ["prezes", "prezesem"],
     "premier": ["premier", "premierem"],
-    "leader": ["przewodniczący", "przewodniczącym"]
+    "leader": ["przewodniczący", "przewodniczącym"],
+    "rpo": ["rpo", "rzecznik", "rzecznikiem"]
 }
 
 clubs_keys = {
@@ -128,25 +131,32 @@ parties = {
 ################################################################################
 
 
-translated_usr_input = []
+list_of_keys = []
 
-"""Słowa niebędące kluczem zostają pominięte"""
-for word in split_usr_input:
-    if word in questions.keys():
-        translated_usr_input.append(questions.get(word))
-    elif word in time.keys():
-        translated_usr_input.append(time.get(word))
-    elif word in occupations.keys():
-        translated_usr_input.append(occupations.get(word))
-    elif word in parties.keys():
-        translated_usr_input.append(parties.get(word))
+def parsing_from_input(splitted_input):
+    dicts = [questions_keys, time_keys, occupations_keys, clubs_keys]
+    for dictionary in dicts:
+        for word in splitted_input:
+            for key in dictionary.keys():
+                if word in dictionary.get(key):
+                    list_of_keys.append(key)
+                    end
+                    break
+                end
+            end
+        end
+    end
+
+parsing_from_input(split_usr_input)
+
+print(list_of_keys)
 
 """Blok odpowiadający komunikatowi zwrotnemu: <<Nie rozumiem ani słowa>>"""
-if translated_usr_input == []:
-    translated_usr_input = "Nie rozumiem"
+if list_of_keys == []:
+    print("Nie rozumiem")
 
 
 ################################################################################
 
 
-input_words = translated_usr_input
+input_words = list_of_keys

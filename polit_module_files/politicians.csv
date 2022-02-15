@@ -1,4 +1,5 @@
-firstname,lastname,occupation,party
-andrzej,duda,prezydent,None
-mateusz,morawiecki,premier,pis
-jaroslaw,kaczynski,prezes,pis
+lastname,firstname,occupation,party
+duda,andrzej,prezydent,None
+morawiecki,mateusz,premier,pis
+kaczynski,jarosław,prezes,pis
+wiącek,marcin,rzecznik praw obywatelskich,None
