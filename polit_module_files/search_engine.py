@@ -87,5 +87,9 @@ def create_output():
 
     #TODO: upewnić się, że do polityka będzie dobra partia
 
-output_message = create_output()
-print(output_message)
+
+try:
+    output_message = create_output()
+    print(output_message)
+except IndexError:
+    print("nie rozumiem")
