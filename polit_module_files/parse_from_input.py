@@ -1,8 +1,3 @@
-
-user_input = input("usr_input>>> ").lower()
-split_usr_input = user_input.split()
-print(split_usr_input)
-
 end = None
 
 
@@ -119,37 +114,56 @@ clubs_keys = {
     "niezrzeszony": ["niezrzeszony",
                      "niezrzeszeni",
                      "niezrzeszonych"],
+    "partia": ["partia",
+               "partii",
+               "ugrupowanie",
+               "ugrupowaniu",
+               "klub",
+               "klubie",
+               "klubu"]
 }
-
-dicts = [questions_keys, time_keys, occupations_keys, gender_keys, clubs_keys]
-################################################################################
-
 
 list_of_keys = []
 
-def parsing_from_input(splitted_input):
-    for dictionary in dicts:
-        for word in splitted_input:
-            for key in dictionary.keys():
-                if word in dictionary.get(key):
-                    list_of_keys.append(key)
+split_usr_query = ""
+
+def query_processing(query):
+    user_query = query
+    # user_query = input("usr_query>>> ").lower()
+    global split_usr_query
+    split_usr_query = user_query.split()
+    print(split_usr_query)
+
+    dicts = [questions_keys, time_keys, occupations_keys, gender_keys, clubs_keys]
+    ################################################################################
+
+
+    list_of_keys = []
+
+    def parsing_from_input(splitted_query):
+        for dictionary in dicts:
+            for word in splitted_query:
+                for key in dictionary.keys():
+                    if word in dictionary.get(key):
+                        list_of_keys.append(key)
+                        end
+                        break
                     end
-                    break
                 end
             end
         end
-    end
 
-parsing_from_input(split_usr_input)
+    parsing_from_input(split_usr_query)
 
-print(list_of_keys)
+    print(list_of_keys)
 
-"""Blok odpowiadający komunikatowi zwrotnemu: <<Nie rozumiem ani słowa>>"""
-if list_of_keys == []:
-    print("Nie rozumiem")
+    """Blok odpowiadający komunikatowi zwrotnemu: <<Nie rozumiem ani słowa>>"""
+    if list_of_keys == []:
+        print("Nie rozumiem")
 
-
-################################################################################
+    return list_of_keys
 
 
-input_words = list_of_keys
+    ################################################################################
+
+

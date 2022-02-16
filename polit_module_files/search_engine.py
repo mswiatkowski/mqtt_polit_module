@@ -1,7 +1,8 @@
 import csv
+import main
 import parse_from_input
 
-keywords = parse_from_input.input_words
+# keywords = main.query_decoded
 
 
 ################################################################################
@@ -26,13 +27,15 @@ def count_sejm(keyword="", party=""):
     print(count)
     return count
 
-
-def create_output():
+def search_kto(keywords):
     if "kto" in keywords:
         if "prezydent" in keywords:
             search_politicians("prezydent")
         if "rpo" in keywords:
             search_politicians("rzecznik praw obywatelskich")
+
+
+def search_ilu(keywords):
     if "ilu" in keywords:
         if "posel" in keywords:
             for word in keywords:
@@ -51,24 +54,30 @@ def create_output():
                 if word in parse_from_input.clubs_keys.keys():
                     return f"mężczyzn w partii {word} jest {count_sejm('m', word)}"
             return f"mężczyzn jest w sejmie {count_sejm('m')}"
+
+
+def search_ile(keywords):
     if "ile" in keywords:
         if "k" in keywords:
             for word in keywords:
                 if word in parse_from_input.clubs_keys.keys():
                     return f"kobiet w partii {word} jest {count_sejm('k', word)}"
             return f"kobiet jest w sejmie {count_sejm('k')}"
+
+
+def search_w(keywords):
     if "w" in keywords[0]:
         list_of_lastnames = []
         list_of_firstnames = []
         club = []
-        for name in parse_from_input.split_usr_input[1:]:
+        for name in parse_from_input.split_usr_query[1:]:
             with open('sejm.csv', 'r', encoding="utf-8") as sejm:
                 sejm = csv.reader(sejm)
                 for row in sejm:
-                    if name in row[0]:
+                    if name == row[0]:
                         list_of_lastnames.append(name)
                         club.append(row[2])
-                    if name in row[1]:
+                    if name == row[1]:
                         club.append(row[2])
                         list_of_firstnames.append(name)
 
@@ -85,11 +94,16 @@ def create_output():
         else:
             return f"{list_of_firstnames[0]} {list_of_lastnames[0]} jest w partii {club[0]}"
 
+
+def create_output(keywords):
+    if "kto" in keywords:
+        return search_kto(keywords)
+    if "ilu" in keywords:
+        return search_ilu(keywords)
+    if "ile" in keywords:
+        return search_ile(keywords)
+    if "w" in keywords[0] and "partia" in keywords:
+        return search_w(keywords)
+    return "Nie rozumiem"
+
     #TODO: upewnić się, że do polityka będzie dobra partia
-
-
-try:
-    output_message = create_output()
-    print(output_message)
-except IndexError:
-    print("nie rozumiem")
