@@ -1,9 +1,14 @@
 import csv
-import main
 import parse_from_input
 
 # keywords = main.query_decoded
-
+firstnames = []
+lastnames = []
+with open("sejm.csv", "r", encoding="utf-8") as sejm:
+    sejm = csv.reader(sejm)
+    for row in sejm:
+        firstnames.append(row[1])
+        lastnames.append(row[0])
 
 ################################################################################
 
@@ -12,7 +17,7 @@ def search_politicians(keyword):
         reader = csv.reader(polits)
         for row in reader:
             if keyword in row:
-                print(f'{keyword} Polski to {row[1]} {row[0]}')
+                return f'{keyword} Polski to {row[1]} {row[0]}'
 
 
 def count_sejm(keyword="", party=""):
@@ -30,9 +35,9 @@ def count_sejm(keyword="", party=""):
 def search_kto(keywords):
     if "kto" in keywords:
         if "prezydent" in keywords:
-            search_politicians("prezydent")
+            return search_politicians("prezydent")
         if "rpo" in keywords:
-            search_politicians("rzecznik praw obywatelskich")
+            return search_politicians("rzecznik praw obywatelskich")
 
 
 def search_ilu(keywords):
@@ -51,7 +56,7 @@ def search_ilu(keywords):
             return "premier jest tylko jeden"
         if "m" in keywords:
             for word in keywords:
-                if word in parse_from_input.clubs_keys.keys():
+                if word in parse_from_input.clubs_keys.keys() and word != "partia":
                     return f"mężczyzn w partii {word} jest {count_sejm('m', word)}"
             return f"mężczyzn jest w sejmie {count_sejm('m')}"
 
@@ -60,26 +65,32 @@ def search_ile(keywords):
     if "ile" in keywords:
         if "k" in keywords:
             for word in keywords:
-                if word in parse_from_input.clubs_keys.keys():
+                if word in parse_from_input.clubs_keys.keys() and word != "partia":
                     return f"kobiet w partii {word} jest {count_sejm('k', word)}"
             return f"kobiet jest w sejmie {count_sejm('k')}"
 
 
-def search_w(keywords):
+def search_w(keywords, split_query):
     if "w" in keywords[0]:
         list_of_lastnames = []
         list_of_firstnames = []
         club = []
-        for name in parse_from_input.split_usr_query[1:]:
+        print(split_query)
+
+        for name in split_query[1:]:
             with open('sejm.csv', 'r', encoding="utf-8") as sejm:
                 sejm = csv.reader(sejm)
+
                 for row in sejm:
-                    if name == row[0]:
+                    if name in row[0] and name in lastnames:
                         list_of_lastnames.append(name)
                         club.append(row[2])
-                    if name == row[1]:
+                    if name in row[1] and name in firstnames:
                         club.append(row[2])
                         list_of_firstnames.append(name)
+
+
+        print(list_of_firstnames)
 
         if len(list_of_lastnames) > 1 and len(list_of_firstnames) == 0:
             return "Więcej niż jedna osoba się tak nazywa"
@@ -95,7 +106,9 @@ def search_w(keywords):
             return f"{list_of_firstnames[0]} {list_of_lastnames[0]} jest w partii {club[0]}"
 
 
-def create_output(keywords):
+def create_output(user_query):
+    split_query = parse_from_input.query_splitting(user_query)
+    keywords = parse_from_input.parsing_from_input(split_query)
     if "kto" in keywords:
         return search_kto(keywords)
     if "ilu" in keywords:
@@ -103,7 +116,7 @@ def create_output(keywords):
     if "ile" in keywords:
         return search_ile(keywords)
     if "w" in keywords[0] and "partia" in keywords:
-        return search_w(keywords)
+        return search_w(keywords, split_query)
     return "Nie rozumiem"
 
     #TODO: upewnić się, że do polityka będzie dobra partia

@@ -6,7 +6,7 @@ end = None
 
 """
 W poniższych słownikach według nstępującego wzoru:
-słowo klucz: lista inputów użytkownika
+słowo klucz: lista możliwych inputów użytkownika
 """
 
 questions_keys = {
@@ -123,37 +123,23 @@ clubs_keys = {
                "klubu"]
 }
 
-list_of_keys = []
 
-split_usr_query = ""
-
-def query_processing(query):
-    user_query = query
-    # user_query = input("usr_query>>> ").lower()
-    global split_usr_query
-    split_usr_query = user_query.split()
-    print(split_usr_query)
-
-    dicts = [questions_keys, time_keys, occupations_keys, gender_keys, clubs_keys]
-    ################################################################################
+def query_splitting(user_query):
+    split_user_query = user_query.split()
+    return split_user_query
 
 
+dicts = [questions_keys, time_keys, occupations_keys, gender_keys, clubs_keys]
+
+
+def parsing_from_input(split_query):
     list_of_keys = []
-
-    def parsing_from_input(splitted_query):
-        for dictionary in dicts:
-            for word in splitted_query:
-                for key in dictionary.keys():
-                    if word in dictionary.get(key):
-                        list_of_keys.append(key)
-                        end
-                        break
-                    end
-                end
-            end
-        end
-
-    parsing_from_input(split_usr_query)
+    for dictionary in dicts:
+        for word in split_query:
+            for key in dictionary.keys():
+                if word in dictionary.get(key):
+                    list_of_keys.append(key)
+                    break
 
     print(list_of_keys)
 
@@ -164,6 +150,5 @@ def query_processing(query):
     return list_of_keys
 
 
-    ################################################################################
 
 
