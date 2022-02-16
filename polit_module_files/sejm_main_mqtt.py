@@ -6,7 +6,7 @@ import search_engine as seng
 ##################################################################################################
 
 Ten plik zawiera metodę politModule() i służy do uruchomienia programu przy użyciu serwera mqtt.
-Dostosowany został do podłączenia do serwera Voice Assistant napisanego przez Wojciech Węgrzynka.
+Dostosowany został do podłączenia do serwera Voice Assistant napisanego przez Wojciecha Węgrzynka.
 
 ##################################################################################################
 """
