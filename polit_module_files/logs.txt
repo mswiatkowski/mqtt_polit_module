@@ -8,3 +8,423 @@ Zapytanie: ile jest kobiet w sejmie
 Odpowiedü: kobiet jest w sejmie 130
  
  
+2022-02-16 22:04:59 
+Zapytanie: w jakiej partii schetyna 
+Odpowiedü: schetyna jest w partii ko
+ 
+ 
+2022-02-16 22:40:39 
+Zapytanie: w jakim ugrupowaniu jest krzysztof gonciarz 
+Odpowiedü: krzysztof gonciarz jest w partii prawo i sprawiedliwoúÊ
+ 
+ 
+2022-02-16 23:31:14 
+Zapytanie: w jakiej partii jest krzysztof gonciarz 
+Odpowiedü: w øadnej partii nie ma takiej osoby
+ 
+ 
+2022-02-16 23:31:23 
+Zapytanie: w jakiej partii jest gonciarz 
+Odpowiedü: gonciarz jest w partii pis
+ 
+ 
+2022-02-16 23:31:54 
+Zapytanie: w jakiej partii jest korwin 
+Odpowiedü: korwin jest w partii konfederacja
+ 
+ 
+2022-02-16 23:32:37 
+Zapytanie: w jakiej partii jest korwin mikke 
+Odpowiedü: WiÍcej niø jedna osoba siÍ tak nazywa
+ 
+ 
+2022-02-16 23:33:40 
+Zapytanie: w jakiejøe partii jest tomasz 
+Odpowiedü: WiÍcej niø jedna osoba ma tak na imiÍ
+ 
+ 
+2022-02-16 23:34:12 
+Zapytanie: w jakiej partii jest witek 
+Odpowiedü: WiÍcej niø jedna osoba siÍ tak nazywa
+ 
+ 
+2022-02-16 23:34:43 
+Zapytanie: w jakiej partii jest lorek 
+Odpowiedü: lorek jest w partii pis
+ 
+ 
+2022-02-16 23:36:04 
+Zapytanie: w jakiej partii jest korwin mikke 
+Odpowiedü: w øadnej partii nie ma takiej osoby
+ 
+ 
+2022-02-16 23:37:22 
+Zapytanie: w jakiej partii jest schetyna 
+Odpowiedü: schetyna jest w partii ko
+ 
+ 
+2022-02-16 23:38:10 
+Zapytanie: w jakiej partii jest schetyna 
+Odpowiedü: schetyna jest w partii koalicja obywatelska
+ 
+ 
+2022-02-17 01:32:46 
+Zapytanie: kto jest liderem pis 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:40:58 
+Zapytanie: kto jest przewodniczπcym pis 
+Odpowiedü: przewodniczπcym ugrupowania prawo i sprawiedliwoúÊ jest ryszard terlecki
+ 
+ 
+2022-02-17 01:42:51 
+Zapytanie: kto jest przewodniczπcym ko 
+Odpowiedü: przewodniczπcym ugrupowania sejmowego koalicja obywatelska jest borys budka
+ 
+ 
+2022-02-17 01:47:05 
+Zapytanie: kto lider asdfwaef 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:47:38 
+Zapytanie: ile asdfgasd 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:47:45 
+Zapytanie: ile kobiet asdfasdf 
+Odpowiedü: kobiet jest w sejmie 130
+ 
+ 
+2022-02-17 01:47:54 
+Zapytanie: ile kurwa 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:48:04 
+Zapytanie: ile 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:48:24 
+Zapytanie: kto prezydent kurwa 
+Odpowiedü: prezydent Polski to andrzej duda
+ 
+ 
+2022-02-17 01:51:52 
+Zapytanie: kto jest liderem pis 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:52:36 
+Zapytanie: kto jest liderem pis 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:53:30 
+Zapytanie: kto jest przewodniczπcym pis 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:54:19 
+Zapytanie: kto jest liderem pis 
+Odpowiedü: dupa
+ 
+ 
+2022-02-17 01:54:37 
+Zapytanie: kto jest liderem pis 
+Odpowiedü: pis
+ 
+ 
+2022-02-17 01:55:09 
+Zapytanie: kto jest liderem pis 
+Odpowiedü: pis
+ 
+ 
+2022-02-17 01:56:26 
+Zapytanie: kto jest liderem pis 
+Odpowiedü: przewodniczπcym ugrupowania sejmowego prawo i sprawiedliwoúÊ jest ryszard terlecki
+ 
+ 
+2022-02-17 01:56:57 
+Zapytanie: kto jest liderem kurwa 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:57:03 
+Zapytanie: kto lider kurwa 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:57:31 
+Zapytanie: kto jest liderem prawa i sprawiedliwoúci 
+Odpowiedü: przewodniczπcym ugrupowania sejmowego prawo i sprawiedliwoúÊ jest ryszard terlecki
+ 
+ 
+2022-02-17 01:58:08 
+Zapytanie: kto jest 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:58:13 
+Zapytanie: co 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:58:17 
+Zapytanie: gÛwno 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 01:58:22 
+Zapytanie: rozumiesz? 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 02:03:31 
+Zapytanie: kto jest szefem koalicji obywatelskiej 
+Odpowiedü: przewodniczπcym ugrupowania sejmowego koalicja obywatelska jest borys budka
+ 
+ 
+2022-02-17 02:04:51 
+Zapytanie: ile jest mÍøczyzn w koalicji polskiej 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 02:07:06 
+Zapytanie: ile jest mÍøczyzn w koalicji polskiej 
+Odpowiedü: Nie rozumiem
+ 
+ 
+2022-02-17 02:07:26 
+Zapytanie: ilu jest mÍøczyzn w koalicji polskiej 
+Odpowiedü: mÍøczyzn w partii ko jest 78
+ 
+ 
+2022-02-17 02:08:12 
+Zapytanie: ilu jest mÍøczyzn w koalicji polskiej 
+Odpowiedü: mÍøczyzn w partii ko jest 78
+ 
+ 
+2022-02-17 02:10:20 
+Zapytanie: ilu pos≥Ûw ma koalicja polska 
+Odpowiedü: koalicja obywatelska ma w sejmie 126 pos≥Ûw
+ 
+ 
+2022-02-17 02:10:37 
+Zapytanie: ilu pos≥Ûw ma koalicja polska 
+Odpowiedü: koalicja obywatelska ma w sejmie 126 pos≥Ûw
+ 
+ 
+2022-02-17 02:11:45 
+Zapytanie: ilu mÍøczyzn w koalicji polskiej 
+Odpowiedü: mÍøczyzn w partii ko jest 78
+ 
+ 
+2022-02-17 02:12:10 
+Zapytanie: ilu pos≥Ûw jest w ko 
+Odpowiedü: koalicja obywatelska ma w sejmie 126 pos≥Ûw
+ 
+ 
+2022-02-17 02:12:19 
+Zapytanie: ilu pos≥Ûw jest w lewicy 
+Odpowiedü: lewica ma w sejmie 44 pos≥Ûw
+ 
+ 
+2022-02-17 02:12:45 
+Zapytanie: ile kobiet jest w lewicy 
+Odpowiedü: kobiet w partii lewica jest 18
+ 
+ 
+2022-02-17 02:13:43 
+Zapytanie: kto jest prezydentem 
+Odpowiedü: prezydent polski to andrzej duda
+ 
+ 
+2022-02-17 02:13:49 
+Zapytanie: kto jest rzecznikiem 
+Odpowiedü: rzecznik praw obywatelskich polski to marcin wiπcek
+ 
+ 
+2022-02-17 02:13:58 
+Zapytanie: ilu pos≥Ûw ma konfederacja 
+Odpowiedü: konfederacja ma w sejmie 11 pos≥Ûw
+ 
+ 
+2022-02-17 02:14:05 
+Zapytanie: ilu jest pos≥Ûw niezrzeszonych 
+Odpowiedü: Pos≥Ûw niezrzeszonych jest w sejmie 3
+ 
+ 
+2022-02-17 02:14:13 
+Zapytanie: ile jest kobiet w sejmie 
+Odpowiedü: kobiet jest w sejmie 130
+ 
+ 
+2022-02-17 02:14:19 
+Zapytanie: ilu jest mÍøczyzn w sejmie 
+Odpowiedü: mÍøczyzn jest w sejmie 329
+ 
+ 
+2022-02-17 02:14:27 
+Zapytanie: ilu jest pos≥Ûw 
+Odpowiedü: pos≥Ûw w sejmie jest 399
+ 
+ 
+2022-02-17 02:15:43 
+Zapytanie: ilu jest pos≥Ûw 
+Odpowiedü: pos≥Ûw w sejmie jest 399
+ 
+ 
+2022-02-17 02:16:07 
+Zapytanie: ilu jest pos≥Ûw 
+Odpowiedü: pos≥Ûw w sejmie jest 399
+ 
+ 
+2022-02-17 02:17:47 
+Zapytanie: ilu jest pos≥Ûw pis 
+Odpowiedü: prawo i sprawiedliwoúÊ ma w sejmie 227 pos≥Ûw
+ 
+ 
+2022-02-17 02:18:36 
+Zapytanie: ilu jest pos≥Ûw 
+Odpowiedü: pos≥Ûw w sejmie jest 460
+ 
+ 
+2022-02-17 02:19:08 
+Zapytanie: ilu jest pos≥Ûw 
+Odpowiedü: pos≥Ûw w sejmie jest 459
+ 
+ 
+2022-02-17 02:19:15 
+Zapytanie: ilu jest pos≥Ûw pis 
+Odpowiedü: prawo i sprawiedliwoúÊ ma w sejmie 204 pos≥Ûw
+ 
+ 
+2022-02-17 02:19:34 
+Zapytanie: ilu jest pos≥Ûw pis 
+Odpowiedü: prawo i sprawiedliwoúÊ ma w sejmie 227 pos≥Ûw
+ 
+ 
+2022-02-17 02:19:50 
+Zapytanie: ilu jest pos≥Ûw 
+Odpowiedü: pos≥Ûw w sejmie jest 399
+ 
+ 
+2022-02-17 02:21:31 
+Zapytanie: ilu jest pos≥Ûw 
+Odpowiedü: pos≥Ûw w sejmie jest 399
+ 
+ 
+2022-02-17 02:22:18 
+Zapytanie: ilu jest pos≥Ûw niezrzeszonych 
+Odpowiedü: Pos≥Ûw niezrzeszonych jest w sejmie 3
+ 
+ 
+2022-02-17 02:23:28 
+Zapytanie: ilu jest pos≥Ûw 
+Odpowiedü: pos≥Ûw w sejmie jest 459
+ 
+ 
+2022-02-17 02:23:36 
+Zapytanie: ilu jest pos≥Ûw pis 
+Odpowiedü: prawo i sprawiedliwoúÊ ma w sejmie 205 pos≥Ûw
+ 
+ 
+2022-02-17 02:24:14 
+Zapytanie: ilu jest pos≥Ûw 
+Odpowiedü: pos≥Ûw w sejmie jest 459
+ 
+ 
+2022-02-17 02:24:20 
+Zapytanie: ilu jest pos≥Ûw pis 
+Odpowiedü: prawo i sprawiedliwoúÊ ma w sejmie 227 pos≥Ûw
+ 
+ 
+2022-02-17 02:25:28 
+Zapytanie: kto jest szefem pis 
+Odpowiedü: przewodniczπcym ugrupowania sejmowego prawo i sprawiedliwoúÊ jest ryszard terlecki
+ 
+ 
+2022-02-17 02:25:37 
+Zapytanie: kto jest liderem lewicy 
+Odpowiedü: przewodniczπcym ugrupowania sejmowego lewica jest krzysztof gawkowski
+ 
+ 
+2022-02-17 02:26:02 
+Zapytanie: w ktÛrym ugrupowaniu jest gawkowski 
+Odpowiedü: gawkowski jest w partii lewica
+ 
+ 
+2022-02-17 02:27:08 
+Zapytanie: ile jest kobiet w lewicy 
+Odpowiedü: kobiet w ugrupowaniu lewica jest 18
+ 
+ 
+2022-02-17 02:27:38 
+Zapytanie: ilu jest pos≥Ûw prawa i sprawiedliwoúci 
+Odpowiedü: prawo i sprawiedliwoúÊ ma w sejmie 227 pos≥Ûw
+ 
+ 
+2022-02-17 02:27:44 
+Zapytanie: ilu jest mÍøczyzn w partii prawo i sprawiedliwoúÊ 
+Odpowiedü: mÍøczyzn w ugrupowaniu prawo i sprawiedliwoúÊ jest 173
+ 
+ 
+2022-02-17 02:27:50 
+Zapytanie: w jakiej partii jest jaros≥aw 
+Odpowiedü: WiÍcej niø jedna osoba ma tak na imiÍ
+ 
+ 
+2022-02-17 02:27:58 
+Zapytanie: w ktÛrej partii jest jaros≥aw kaczyÒski 
+Odpowiedü: jaros≥aw kaczyÒski jest w ugrupowaniu prawo i sprawiedliwoúÊ
+ 
+ 
+2022-02-17 02:28:06 
+Zapytanie: w jakiejøe partii jest tomasz 
+Odpowiedü: WiÍcej niø jedna osoba ma tak na imiÍ
+ 
+ 
+2022-02-17 02:28:14 
+Zapytanie: w ktÛrejøe partii jest schetyna grzegorz 
+Odpowiedü: grzegorz schetyna jest w ugrupowaniu koalicja obywatelska
+ 
+ 
+2022-02-17 02:28:20 
+Zapytanie: w jakim ugrupowaniu jest gonciarz 
+Odpowiedü: gonciarz jest w partii prawo i sprawiedliwoúÊ
+ 
+ 
+2022-02-17 02:28:28 
+Zapytanie: kto jest liderem prawa i sprawiedliwoúci 
+Odpowiedü: przewodniczπcym ugrupowania sejmowego prawo i sprawiedliwoúÊ jest ryszard terlecki
+ 
+ 
+2022-02-17 02:28:35 
+Zapytanie: kto jest szefem koalicji obywatelskiej 
+Odpowiedü: przewodniczπcym ugrupowania sejmowego koalicja obywatelska jest borys budka
+ 
+ 
+2022-02-17 02:28:42 
+Zapytanie: ilu pos≥Ûw jest w lewicy 
+Odpowiedü: lewica ma w sejmie 44 pos≥Ûw
+ 
+ 
+2022-02-17 02:28:49 
+Zapytanie: ile kobiet jest w lewicy 
+Odpowiedü: kobiet w ugrupowaniu lewica jest 18
+ 
+ 
+2022-02-17 02:28:57 
+Zapytanie: w ktÛrym ugrupowaniu jest gawkowski 
+Odpowiedü: gawkowski jest w partii lewica
+ 
+ 
+2022-02-17 02:29:12 
+Zapytanie: kto jest szefem 
+Odpowiedü: Nie rozumiem
+ 
+ 

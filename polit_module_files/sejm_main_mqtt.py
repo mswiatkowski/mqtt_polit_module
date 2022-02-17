@@ -35,7 +35,7 @@ class politModule(VAModule):
 
     def process_query(self, query: str) -> str:
         """
-        Funkcja uruchamiająca moduł.
+        Funkcja pozwalająca przetworzyć zapytanie.
         :return: odpowiedź na zapytanie użytkownika.
         """
         user_query = query  # Pobranie zapytania od użytkownika

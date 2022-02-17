@@ -1,7 +1,6 @@
 import csv
 import parse_from_input as pfi  # Zaimportowanie programu parsującego
 
-
 """
 ##################################################################################################
 
@@ -17,20 +16,19 @@ dla uproszczenia jak partie)
 ##################################################################################################
 """
 
-
-
 """Poniżej znajduje się blok kodu potrzebnego do zapytań o członkostwo w partiach.
 Pozwala on przeanalizować imiona i nazwiska oddzielnie"""
 firstnames = []
 lastnames = []
+fullnames = []
 with open("sejm.csv", "r", encoding="utf-8") as sejm:
     sejm = csv.reader(sejm)
     for row in sejm:
         firstnames.append(row[1])
         lastnames.append(row[0])
+        fullnames.append(row[1] + ' ' + row[0])
 
-lastnames = [y for x in lastnames for y in x.split(' ')]    # Rozbicie dwuczłonowych nazwisk na pojedyncze elementy listy
-
+lastnames = [y for x in lastnames for y in x.split(' ')]  # Rozbicie dwuczłonowych nazwisk na pojedyncze elementy listy
 
 
 ################################################################################
@@ -45,7 +43,7 @@ def search_politicians(keyword):
         reader = csv.reader(polits)
         for row in reader:
             if keyword in row:
-                return f'{keyword} Polski to {row[1]} {row[0]}'
+                return f'{keyword} polski to {row[1]} {row[0]}'
 
 
 def count_sejm(keyword="", party=""):
@@ -55,6 +53,11 @@ def count_sejm(keyword="", party=""):
     :param party: pojedynczy element sparsowanego zapytania oznaczający partię.
     :return: integer wyrażający liczbę osób w sejmie.
     """
+
+    """Jeśli zapytanie dotyczy wszystkich posłów:"""
+    if keyword == "" and party == "":
+        return 459
+
     count = 0
     with open('sejm.csv', 'r', encoding="utf-8") as sejm:
         reader = csv.reader(sejm)
@@ -63,8 +66,25 @@ def count_sejm(keyword="", party=""):
                 count += 1
             elif keyword in row and party in row:
                 count += 1
-    # print(count)
+    print(count)
     return count
+
+
+def search_clubs(keywords):
+    """
+    Funkcja przeszukująca kluby i koła, jakie znajdują się w sejmie.
+    :param keywords: sparsowane zapytanie użytkownika.
+    :return: wiersz z pliku clubs.csv.
+    """
+    with open("clubs.csv", "r", encoding="utf-8") as clubs:
+        clubs = csv.reader(clubs)
+        for item in keywords:                       # dla każdego elementu w zapytaniu
+            if item in pfi.clubs_keys.keys():       # dla każdego klucza w słowniku kluczy club_keys
+                for line in clubs:                  # dla każdego wiersza w pliku clubs.csv
+                    if item == line[1]:
+                        # print(line)
+                        return f"przewodniczącym ugrupowania sejmowego {pfi.clubs_keys.get(line[1])[1]} jest {line[2]}"
+
 
 def search_kto(keywords):
     """
@@ -77,6 +97,8 @@ def search_kto(keywords):
             return search_politicians("prezydent")
         if "rpo" in keywords:
             return search_politicians("rzecznik praw obywatelskich")
+        if "leader" in keywords:
+            return search_clubs(keywords)
 
 
 def search_ilu(keywords):
@@ -98,10 +120,10 @@ def search_ilu(keywords):
             return "prezydent jest tylko jeden"
         if "premier" in keywords:
             return "premier jest tylko jeden"
-        if "m" in keywords: # z przyczyn gramatycznych rozróżnienie ze względu na płeć znajduje się w tej funkcji
+        if "m" in keywords:  # z przyczyn gramatycznych rozróżnienie ze względu na płeć znajduje się w tej funkcji
             for word in keywords:
                 if word in pfi.clubs_keys.keys() and word != "partia":
-                    return f"mężczyzn w partii {word} jest {count_sejm('m', word)}"
+                    return f"mężczyzn w ugrupowaniu {pfi.clubs_keys.get(word)[1]} jest {count_sejm('m', word)}"
             return f"mężczyzn jest w sejmie {count_sejm('m')}"
 
 
@@ -115,7 +137,7 @@ def search_ile(keywords):
         if "k" in keywords:
             for word in keywords:
                 if word in pfi.clubs_keys.keys() and word != "partia":
-                    return f"kobiet w partii {word} jest {count_sejm('k', word)}"
+                    return f"kobiet w ugrupowaniu {pfi.clubs_keys.get(word)[1]} jest {count_sejm('k', word)}"
             return f"kobiet jest w sejmie {count_sejm('k')}"
 
 
@@ -147,23 +169,26 @@ def search_w(keywords, split_query):
                         club.append(row[2])
                         list_of_firstnames.append(name)
 
-
         # print(list_of_firstnames)
 
         """W poniższym bloku kodu sprawdzane są przypadki powtórzeń imion i nazwisk, a także sytuacja,
         w której jakiejś osoby nie ma w bazie danych"""
-        if len(list_of_lastnames) > 1 and len(list_of_firstnames) == 0:     # powtórzenie nazwiska
+        if len(list_of_lastnames) > 1 and len(list_of_firstnames) == 0:  # powtórzenie nazwiska
             return "Więcej niż jedna osoba się tak nazywa"
-        elif len(list_of_lastnames) == 0 and len(list_of_firstnames) > 1:   # powtórzenie imienia
+        elif len(list_of_lastnames) == 0 and len(list_of_firstnames) > 1:  # powtórzenie imienia
             return "Więcej niż jedna osoba ma tak na imię"
         elif len(list_of_lastnames) == 1 and len(list_of_firstnames) == 0:  # podanie w zapytaniu samego nazwiska
-            return f"{list_of_lastnames[0]} jest w partii {club[0]}"
+            return f"{list_of_lastnames[0]} jest w partii {pfi.clubs_keys.get(club[0])[1]}"
         elif len(list_of_firstnames) == 1 and len(list_of_lastnames) == 0:  # podanie w zapytaniu samego imienia
-            return f"{list_of_firstnames[0]} jest w partii {club[0]}"
+            return f"{list_of_firstnames[0]} jest w partii {pfi.clubs_keys.get(club[0])[1]}"
         elif len(list_of_firstnames) == 0 and len(list_of_lastnames) == 0:  # podanie w zapytaniu osoby spoza listy
             return "w żadnej partii nie ma takiej osoby"
-        else:                                                               # podanie imienia i nazwiska
-            return f"{list_of_firstnames[0]} {list_of_lastnames[0]} jest w partii {pfi.clubs_keys.get(club[0])[1]}"
+        else:  # podanie imienia i nazwiska
+            fullname = list_of_firstnames[0] + ' ' + list_of_lastnames[0]
+            if fullname in fullnames:  # sprawdzenie czy zgadza się imię i nazwisko
+                return f"{fullname} jest w ugrupowaniu {pfi.clubs_keys.get(club[0])[1]}"
+            else:
+                return "w żadnej partii nie ma takiej osoby"
 
 
 def create_output(user_query):
@@ -172,8 +197,8 @@ def create_output(user_query):
     :param user_query: Niesparsowane i niepodzielone zapytanie użytkownika.
     :return: fraza będąca odpowiedzią na zapytanie.
     """
-    split_query = pfi.query_splitting(user_query)       # podzielenie zapytania na listę słów
-    keywords = pfi.parsing_from_input(split_query)      # zakodowanie listy słów według słownika słów kluczowych
+    split_query = pfi.query_splitting(user_query)  # podzielenie zapytania na listę słów
+    keywords = pfi.parse_from_input(split_query)  # zakodowanie listy słów według słownika słów kluczowych
     if "kto" in keywords:
         return search_kto(keywords)
     if "ilu" in keywords:
@@ -182,4 +207,4 @@ def create_output(user_query):
         return search_ile(keywords)
     if "w" in keywords[0] and "partia" in keywords:
         return search_w(keywords, split_query)
-    return "Nie rozumiem"
+    return None

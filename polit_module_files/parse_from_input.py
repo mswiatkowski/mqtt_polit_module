@@ -4,7 +4,7 @@ end = None
 """
 ##################################################################################################
 
-Plik parse_from_input zawiera funkcje pozwalające przetworzyć zapytanie użytkownika na listę słów 
+Plik parse_from_input.py zawiera funkcje pozwalające przetworzyć zapytanie użytkownika na listę słów 
 kluczowych, które następnie może wykorzystać silnik wyszukiwania. Oprócz dwóch parsujących funkcji
 plik zawiera również słowniki, które pozwalają zakodować użyte przez użytkownika w zapytaniu 
 słowa.
@@ -16,7 +16,6 @@ słowa.
 Poniższe słowniki zawierają klucze pozwalające zakodować wypowiedź na użytek dalszego przetwarzania.
 Stosowany jest tu następujący wzór:
 klucz: [lista słów, które mogą pojawić się w zapytaniu]
-Druga pozycja na liście przy danym kluczu to nazwa użytkowa.
 """
 
 # klucze rozpoczęcia zapytania
@@ -38,9 +37,8 @@ time_keys = {
 occupations_keys = {
     "prezydent": ["prezydent", "prezydentem", "prezydentów"],
     "posel": ["poseł", "posłem", "posłów"],
-    "prezes": ["prezes", "prezesem", "prezesów"],
     "premier": ["premier", "premierem", "premierów"],
-    "leader": ["przewodniczący", "przewodniczącym"],
+    "leader": ["przewodniczący", "przewodniczącym", "lider", "liderem", "szef", "szefem"],
     "rpo": ["rpo", "rzecznik", "rzecznikiem"]
 }
 
@@ -57,6 +55,7 @@ gender_keys = {
 }
 
 # klucze zapytania o przynależność partyjną
+# druga pozycja w liście to nazwa użytkowa
 clubs_keys = {
     "pis": ["pis",
             "prawo i sprawiedliwość",
@@ -86,6 +85,7 @@ clubs_keys = {
                "koalicyjnego klubu poselskiego lewicy"],
     "kp": ["kp",
            "koalicja polska",
+           "polskiej",
            "kape",
            "koalicji polskiej",
            "klub parlamentarny koalicja polska",
@@ -154,7 +154,7 @@ def query_splitting(user_query):
 dicts = [questions_keys, time_keys, occupations_keys, gender_keys, clubs_keys]
 
 
-def parsing_from_input(split_query):
+def parse_from_input(split_query):
     """
     Funkcja kodująca rozbite zapytanie użytkownika na listę kodów odpowiadających słowom z zapytania.
     Tworzy listę, która będzie użyta w dalszym przetwarzaniu.
@@ -162,14 +162,14 @@ def parsing_from_input(split_query):
     :return: zakodowane zapytanie użytkownika.
     """
     list_of_keys = []
-    for dictionary in dicts:
-        for word in split_query:
-            for key in dictionary.keys():
+    for dictionary in dicts:                        # dla każdego słownika kluczy
+        for word in split_query:                    # dla każdego słowa w zapytaniu
+            for key in dictionary.keys():           # dla każdego klucza w konkretnym słowniku
                 if word in dictionary.get(key):
                     list_of_keys.append(key)
                     break
 
-    # print(list_of_keys)
+    print(list_of_keys)
 
     """Blok odpowiadający komunikatowi zwrotnemu: <<Nie rozumiem ani słowa>>"""
     if list_of_keys == []:
