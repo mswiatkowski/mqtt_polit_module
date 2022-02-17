@@ -14,7 +14,7 @@ Dostosowany został do podłączenia do serwera Voice Assistant napisanego przez
 
 def write_to_logs(query, output):
     """
-    Funkjca służąca do zapisywania zapytań i odpowiedzi w pliku logs.txt.
+    Funkcja służąca do zapisywania zapytań i odpowiedzi w pliku logs.txt.
     :param query: zapytanie, które pobierane jest z serwera mqtt (lub, w przypadku tego programy testowego,
     z inputu użytkownika.
     :param output: string, który wysyłany jest do serwera. Stanowi odpowiedź na zapytanie.
@@ -44,9 +44,9 @@ class politModule(VAModule):
             # i stworzenie odpowiedzi
             # Poniżej, w zależności od wymagań serwera, odpowiedź może zostać zastąpiona wartością None
             if output_message is None:
-                output_message = "Nie rozumiem"
+                output_message = None
         except IndexError:
-            output_message = "Nie rozumiem"
+            output_message = None
         print(output_message)
         write_to_logs(user_query, output_message)  # Zapis do logów
         return output_message

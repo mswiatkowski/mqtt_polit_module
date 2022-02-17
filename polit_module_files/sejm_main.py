@@ -38,9 +38,10 @@ def main():
     """
     user_query = input("usr_query>>> ").lower()  # Pobranie zapytania od użytkownika
     try:
-        output_message = seng.create_output(user_query)  # Wysłanie zapytania do funkcji create_output
-        # i stworzenie odpowiedzi
-        # Poniżej, w zależności od wymagań serwera, odpowiedź może zostać zastąpiona wartością None
+        output_message = seng.create_output(user_query)     # Wysłanie zapytania do funkcji create_output
+                                                            # i stworzenie odpowiedzi
+                                                            # Poniżej, w zależności od wymagań serwera,
+                                                            # odpowiedź może zostać zastąpiona wartością None
         if output_message is None:
             output_message = "Nie rozumiem"
     except IndexError:
