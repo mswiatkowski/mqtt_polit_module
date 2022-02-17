@@ -143,7 +143,7 @@ def parse_from_input(split_query):
                     list_of_keys.append(key)
                     break
 
-    print(list_of_keys)
+    # print(list_of_keys)
 
     """Blok odpowiadający komunikatowi zwrotnemu: <<Nie rozumiem ani słowa>>"""
     if list_of_keys == []:

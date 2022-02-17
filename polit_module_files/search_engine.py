@@ -66,7 +66,7 @@ def count_sejm(keyword="", party=""):
                 count += 1
             elif keyword in row and party in row:
                 count += 1
-    print(count)
+    # print(count)
     return count
 
 
@@ -154,6 +154,7 @@ def search_w(keywords, split_query):
         list_of_lastnames = []
         list_of_firstnames = []
         club = []
+        ask = set()     # utworzenie zbioru potrzebnego do określenia czy użytkownik podał imię, nazwisko czy oba
         # print(split_query)
 
         for name in split_query[1:]:
@@ -165,30 +166,52 @@ def search_w(keywords, split_query):
                     if name in row[0] and name in lastnames:
                         list_of_lastnames.append(name)
                         club.append(row[2])
+                        ask.add("lastname")
                     if name in row[1] and name in firstnames:
                         club.append(row[2])
                         list_of_firstnames.append(name)
+                        ask.add("firstname")
+
+        ask = list(ask)
+        if len(ask) == 2:                           # podanie imienia i nazwiska
+            firstlast = list_of_firstnames[0] + ' ' + list_of_lastnames[0]
+            lastfirst = list_of_lastnames[0] + ' ' + list_of_firstnames[0]
+            if firstlast in fullnames:
+                # print(firstlast)
+                with open("sejm.csv", "r", encoding="utf-8") as sejm:
+                    sejm = csv.reader(sejm)
+                    for line in sejm:
+                        if list_of_firstnames[0] == line[1] and list_of_lastnames[0] == line[0]:
+                            # print(firstlast, line[2])
+                            return f"{firstlast} jest w ugrupowaniu {pfi.clubs_keys.get(line[2])[1]}"
+            elif lastfirst in fullnames:
+                # print(lastfirst)
+                with open("sejm.csv", "r", encoding="utf-8") as sejm:
+                    sejm = csv.reader(sejm)
+                    for line in sejm:
+                        if list_of_firstnames[0] == line[0] and list_of_lastnames[0] == line[1]:
+                            # print(lastfirst, line[2])
+                            return f"{lastfirst} jest w ugrupowaniu {pfi.clubs_keys.get(line[2])[1]}"
+            elif firstlast not in fullnames and lastfirst not in fullnames:
+                return "Nie ma takiej osoby"
+        elif len(ask) == 1:                         # podanie tylko imienia lub nazwiska
+            if ask[0] == "firstname":
+                if len(list_of_lastnames) == 0 and len(list_of_firstnames) > 1:  # powtórzenie imienia
+                    return "Więcej niż jedna osoba ma tak na imię"
+            elif ask[0] == "lastname":
+                if len(list_of_lastnames) > 1 and len(list_of_firstnames) == 0:  # powtórzenie nazwiska
+                    return "Więcej niż jedna osoba się tak nazywa"
 
         # print(list_of_firstnames)
 
-        """W poniższym bloku kodu sprawdzane są przypadki powtórzeń imion i nazwisk, a także sytuacja,
+        """W poniższym bloku kodu sprawdzane są przypadki podania samego imienia lub nazwiska, a także sytuacja,
         w której jakiejś osoby nie ma w bazie danych"""
-        if len(list_of_lastnames) > 1 and len(list_of_firstnames) == 0:  # powtórzenie nazwiska
-            return "Więcej niż jedna osoba się tak nazywa"
-        elif len(list_of_lastnames) == 0 and len(list_of_firstnames) > 1:  # powtórzenie imienia
-            return "Więcej niż jedna osoba ma tak na imię"
-        elif len(list_of_lastnames) == 1 and len(list_of_firstnames) == 0:  # podanie w zapytaniu samego nazwiska
+        if len(list_of_lastnames) == 1 and len(list_of_firstnames) == 0:  # podanie w zapytaniu samego nazwiska
             return f"{list_of_lastnames[0]} jest w partii {pfi.clubs_keys.get(club[0])[1]}"
         elif len(list_of_firstnames) == 1 and len(list_of_lastnames) == 0:  # podanie w zapytaniu samego imienia
             return f"{list_of_firstnames[0]} jest w partii {pfi.clubs_keys.get(club[0])[1]}"
         elif len(list_of_firstnames) == 0 and len(list_of_lastnames) == 0:  # podanie w zapytaniu osoby spoza listy
             return "w żadnej partii nie ma takiej osoby"
-        else:  # podanie imienia i nazwiska
-            fullname = list_of_firstnames[0] + ' ' + list_of_lastnames[0]
-            if fullname in fullnames:  # sprawdzenie czy zgadza się imię i nazwisko
-                return f"{fullname} jest w ugrupowaniu {pfi.clubs_keys.get(club[0])[1]}"
-            else:
-                return "w żadnej partii nie ma takiej osoby"
 
 
 def create_output(user_query):

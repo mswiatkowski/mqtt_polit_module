@@ -1,445 +1,315 @@
-2022-02-16 21:40:14 
-Zapytanie: ilu jest mê¿czyzn w sejmie 
-OdpowiedŸ: mê¿czyzn jest w sejmie 329
- 
- 
-2022-02-16 21:40:25 
-Zapytanie: ile jest kobiet w sejmie 
-OdpowiedŸ: kobiet jest w sejmie 130
- 
- 
-2022-02-16 22:04:59 
-Zapytanie: w jakiej partii schetyna 
-OdpowiedŸ: schetyna jest w partii ko
- 
- 
-2022-02-16 22:40:39 
-Zapytanie: w jakim ugrupowaniu jest krzysztof gonciarz 
-OdpowiedŸ: krzysztof gonciarz jest w partii prawo i sprawiedliwoœæ
- 
- 
-2022-02-16 23:31:14 
-Zapytanie: w jakiej partii jest krzysztof gonciarz 
-OdpowiedŸ: w ¿adnej partii nie ma takiej osoby
- 
- 
-2022-02-16 23:31:23 
-Zapytanie: w jakiej partii jest gonciarz 
-OdpowiedŸ: gonciarz jest w partii pis
- 
- 
-2022-02-16 23:31:54 
-Zapytanie: w jakiej partii jest korwin 
-OdpowiedŸ: korwin jest w partii konfederacja
- 
- 
-2022-02-16 23:32:37 
-Zapytanie: w jakiej partii jest korwin mikke 
-OdpowiedŸ: Wiêcej ni¿ jedna osoba siê tak nazywa
- 
- 
-2022-02-16 23:33:40 
-Zapytanie: w jakiej¿e partii jest tomasz 
-OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
- 
- 
-2022-02-16 23:34:12 
-Zapytanie: w jakiej partii jest witek 
-OdpowiedŸ: Wiêcej ni¿ jedna osoba siê tak nazywa
- 
- 
-2022-02-16 23:34:43 
-Zapytanie: w jakiej partii jest lorek 
-OdpowiedŸ: lorek jest w partii pis
- 
- 
-2022-02-16 23:36:04 
-Zapytanie: w jakiej partii jest korwin mikke 
-OdpowiedŸ: w ¿adnej partii nie ma takiej osoby
- 
- 
-2022-02-16 23:37:22 
-Zapytanie: w jakiej partii jest schetyna 
-OdpowiedŸ: schetyna jest w partii ko
- 
- 
-2022-02-16 23:38:10 
-Zapytanie: w jakiej partii jest schetyna 
-OdpowiedŸ: schetyna jest w partii koalicja obywatelska
- 
- 
-2022-02-17 01:32:46 
-Zapytanie: kto jest liderem pis 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:40:58 
-Zapytanie: kto jest przewodnicz¹cym pis 
-OdpowiedŸ: przewodnicz¹cym ugrupowania prawo i sprawiedliwoœæ jest ryszard terlecki
- 
- 
-2022-02-17 01:42:51 
-Zapytanie: kto jest przewodnicz¹cym ko 
-OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego koalicja obywatelska jest borys budka
- 
- 
-2022-02-17 01:47:05 
-Zapytanie: kto lider asdfwaef 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:47:38 
-Zapytanie: ile asdfgasd 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:47:45 
-Zapytanie: ile kobiet asdfasdf 
-OdpowiedŸ: kobiet jest w sejmie 130
- 
- 
-2022-02-17 01:47:54 
-Zapytanie: ile kurwa 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:48:04 
-Zapytanie: ile 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:48:24 
-Zapytanie: kto prezydent kurwa 
-OdpowiedŸ: prezydent Polski to andrzej duda
- 
- 
-2022-02-17 01:51:52 
-Zapytanie: kto jest liderem pis 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:52:36 
-Zapytanie: kto jest liderem pis 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:53:30 
-Zapytanie: kto jest przewodnicz¹cym pis 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:54:19 
-Zapytanie: kto jest liderem pis 
-OdpowiedŸ: dupa
- 
- 
-2022-02-17 01:54:37 
-Zapytanie: kto jest liderem pis 
-OdpowiedŸ: pis
- 
- 
-2022-02-17 01:55:09 
-Zapytanie: kto jest liderem pis 
-OdpowiedŸ: pis
- 
- 
-2022-02-17 01:56:26 
-Zapytanie: kto jest liderem pis 
-OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego prawo i sprawiedliwoœæ jest ryszard terlecki
- 
- 
-2022-02-17 01:56:57 
-Zapytanie: kto jest liderem kurwa 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:57:03 
-Zapytanie: kto lider kurwa 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:57:31 
-Zapytanie: kto jest liderem prawa i sprawiedliwoœci 
-OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego prawo i sprawiedliwoœæ jest ryszard terlecki
- 
- 
-2022-02-17 01:58:08 
-Zapytanie: kto jest 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:58:13 
-Zapytanie: co 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:58:17 
-Zapytanie: gówno 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 01:58:22 
-Zapytanie: rozumiesz? 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 02:03:31 
-Zapytanie: kto jest szefem koalicji obywatelskiej 
-OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego koalicja obywatelska jest borys budka
- 
- 
-2022-02-17 02:04:51 
-Zapytanie: ile jest mê¿czyzn w koalicji polskiej 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 02:07:06 
-Zapytanie: ile jest mê¿czyzn w koalicji polskiej 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 02:07:26 
-Zapytanie: ilu jest mê¿czyzn w koalicji polskiej 
-OdpowiedŸ: mê¿czyzn w partii ko jest 78
- 
- 
-2022-02-17 02:08:12 
-Zapytanie: ilu jest mê¿czyzn w koalicji polskiej 
-OdpowiedŸ: mê¿czyzn w partii ko jest 78
- 
- 
-2022-02-17 02:10:20 
-Zapytanie: ilu pos³ów ma koalicja polska 
-OdpowiedŸ: koalicja obywatelska ma w sejmie 126 pos³ów
- 
- 
-2022-02-17 02:10:37 
-Zapytanie: ilu pos³ów ma koalicja polska 
-OdpowiedŸ: koalicja obywatelska ma w sejmie 126 pos³ów
- 
- 
-2022-02-17 02:11:45 
-Zapytanie: ilu mê¿czyzn w koalicji polskiej 
-OdpowiedŸ: mê¿czyzn w partii ko jest 78
- 
- 
-2022-02-17 02:12:10 
-Zapytanie: ilu pos³ów jest w ko 
-OdpowiedŸ: koalicja obywatelska ma w sejmie 126 pos³ów
- 
- 
-2022-02-17 02:12:19 
-Zapytanie: ilu pos³ów jest w lewicy 
-OdpowiedŸ: lewica ma w sejmie 44 pos³ów
- 
- 
-2022-02-17 02:12:45 
-Zapytanie: ile kobiet jest w lewicy 
-OdpowiedŸ: kobiet w partii lewica jest 18
- 
- 
-2022-02-17 02:13:43 
-Zapytanie: kto jest prezydentem 
-OdpowiedŸ: prezydent polski to andrzej duda
- 
- 
-2022-02-17 02:13:49 
-Zapytanie: kto jest rzecznikiem 
-OdpowiedŸ: rzecznik praw obywatelskich polski to marcin wi¹cek
- 
- 
-2022-02-17 02:13:58 
-Zapytanie: ilu pos³ów ma konfederacja 
-OdpowiedŸ: konfederacja ma w sejmie 11 pos³ów
- 
- 
-2022-02-17 02:14:05 
-Zapytanie: ilu jest pos³ów niezrzeszonych 
-OdpowiedŸ: Pos³ów niezrzeszonych jest w sejmie 3
- 
- 
-2022-02-17 02:14:13 
-Zapytanie: ile jest kobiet w sejmie 
-OdpowiedŸ: kobiet jest w sejmie 130
- 
- 
-2022-02-17 02:14:19 
-Zapytanie: ilu jest mê¿czyzn w sejmie 
-OdpowiedŸ: mê¿czyzn jest w sejmie 329
- 
- 
-2022-02-17 02:14:27 
-Zapytanie: ilu jest pos³ów 
-OdpowiedŸ: pos³ów w sejmie jest 399
- 
- 
-2022-02-17 02:15:43 
-Zapytanie: ilu jest pos³ów 
-OdpowiedŸ: pos³ów w sejmie jest 399
- 
- 
-2022-02-17 02:16:07 
-Zapytanie: ilu jest pos³ów 
-OdpowiedŸ: pos³ów w sejmie jest 399
- 
- 
-2022-02-17 02:17:47 
-Zapytanie: ilu jest pos³ów pis 
-OdpowiedŸ: prawo i sprawiedliwoœæ ma w sejmie 227 pos³ów
- 
- 
-2022-02-17 02:18:36 
-Zapytanie: ilu jest pos³ów 
-OdpowiedŸ: pos³ów w sejmie jest 460
- 
- 
-2022-02-17 02:19:08 
-Zapytanie: ilu jest pos³ów 
-OdpowiedŸ: pos³ów w sejmie jest 459
- 
- 
-2022-02-17 02:19:15 
-Zapytanie: ilu jest pos³ów pis 
-OdpowiedŸ: prawo i sprawiedliwoœæ ma w sejmie 204 pos³ów
- 
- 
-2022-02-17 02:19:34 
-Zapytanie: ilu jest pos³ów pis 
-OdpowiedŸ: prawo i sprawiedliwoœæ ma w sejmie 227 pos³ów
- 
- 
-2022-02-17 02:19:50 
-Zapytanie: ilu jest pos³ów 
-OdpowiedŸ: pos³ów w sejmie jest 399
- 
- 
-2022-02-17 02:21:31 
-Zapytanie: ilu jest pos³ów 
-OdpowiedŸ: pos³ów w sejmie jest 399
- 
- 
-2022-02-17 02:22:18 
-Zapytanie: ilu jest pos³ów niezrzeszonych 
-OdpowiedŸ: Pos³ów niezrzeszonych jest w sejmie 3
- 
- 
-2022-02-17 02:23:28 
-Zapytanie: ilu jest pos³ów 
-OdpowiedŸ: pos³ów w sejmie jest 459
- 
- 
-2022-02-17 02:23:36 
-Zapytanie: ilu jest pos³ów pis 
-OdpowiedŸ: prawo i sprawiedliwoœæ ma w sejmie 205 pos³ów
- 
- 
-2022-02-17 02:24:14 
-Zapytanie: ilu jest pos³ów 
-OdpowiedŸ: pos³ów w sejmie jest 459
- 
- 
-2022-02-17 02:24:20 
-Zapytanie: ilu jest pos³ów pis 
-OdpowiedŸ: prawo i sprawiedliwoœæ ma w sejmie 227 pos³ów
- 
- 
-2022-02-17 02:25:28 
-Zapytanie: kto jest szefem pis 
-OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego prawo i sprawiedliwoœæ jest ryszard terlecki
- 
- 
-2022-02-17 02:25:37 
-Zapytanie: kto jest liderem lewicy 
-OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego lewica jest krzysztof gawkowski
- 
- 
-2022-02-17 02:26:02 
-Zapytanie: w którym ugrupowaniu jest gawkowski 
-OdpowiedŸ: gawkowski jest w partii lewica
- 
- 
-2022-02-17 02:27:08 
-Zapytanie: ile jest kobiet w lewicy 
-OdpowiedŸ: kobiet w ugrupowaniu lewica jest 18
- 
- 
-2022-02-17 02:27:38 
-Zapytanie: ilu jest pos³ów prawa i sprawiedliwoœci 
-OdpowiedŸ: prawo i sprawiedliwoœæ ma w sejmie 227 pos³ów
- 
- 
-2022-02-17 02:27:44 
-Zapytanie: ilu jest mê¿czyzn w partii prawo i sprawiedliwoœæ 
-OdpowiedŸ: mê¿czyzn w ugrupowaniu prawo i sprawiedliwoœæ jest 173
- 
- 
-2022-02-17 02:27:50 
-Zapytanie: w jakiej partii jest jaros³aw 
-OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
- 
- 
-2022-02-17 02:27:58 
-Zapytanie: w której partii jest jaros³aw kaczyñski 
-OdpowiedŸ: jaros³aw kaczyñski jest w ugrupowaniu prawo i sprawiedliwoœæ
- 
- 
-2022-02-17 02:28:06 
-Zapytanie: w jakiej¿e partii jest tomasz 
-OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
- 
- 
-2022-02-17 02:28:14 
-Zapytanie: w której¿e partii jest schetyna grzegorz 
-OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu koalicja obywatelska
- 
- 
-2022-02-17 02:28:20 
-Zapytanie: w jakim ugrupowaniu jest gonciarz 
-OdpowiedŸ: gonciarz jest w partii prawo i sprawiedliwoœæ
- 
- 
-2022-02-17 02:28:28 
-Zapytanie: kto jest liderem prawa i sprawiedliwoœci 
-OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego prawo i sprawiedliwoœæ jest ryszard terlecki
- 
- 
-2022-02-17 02:28:35 
-Zapytanie: kto jest szefem koalicji obywatelskiej 
-OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego koalicja obywatelska jest borys budka
- 
- 
-2022-02-17 02:28:42 
-Zapytanie: ilu pos³ów jest w lewicy 
-OdpowiedŸ: lewica ma w sejmie 44 pos³ów
- 
- 
-2022-02-17 02:28:49 
-Zapytanie: ile kobiet jest w lewicy 
-OdpowiedŸ: kobiet w ugrupowaniu lewica jest 18
- 
- 
-2022-02-17 02:28:57 
-Zapytanie: w którym ugrupowaniu jest gawkowski 
-OdpowiedŸ: gawkowski jest w partii lewica
- 
- 
-2022-02-17 02:29:12 
-Zapytanie: kto jest szefem 
-OdpowiedŸ: Nie rozumiem
- 
- 
-2022-02-17 04:26:32 
+2022-02-17 04:45:40 
 Zapytanie: w jakiej partii jest grzegorz schetyna 
 OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
  
  
-2022-02-17 04:26:47 
-Zapytanie: w jakiej partii jest kaczyñski 
+2022-02-17 04:46:00 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:46:19 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:46:41 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:47:34 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:47:50 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:47:56 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:48:06 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:48:56 
+Zapytanie: f"{ask[1]} {ask[0]}" 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 04:49:09 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:49:29 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:50:10 
+Zapytanie: w jakiej partii jest grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:56:31 
+Zapytanie:                 with open("sejm.csv", "r", encoding="utf-8") as sejm: 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 04:56:41 
+Zapytanie: w jakiej partii grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:57:04 
+Zapytanie: w jakiej partii grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu konfederacja
+ 
+ 
+2022-02-17 04:58:21 
+Zapytanie: w jakiej partii grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu koalicja obywatelska
+ 
+ 
+2022-02-17 04:58:29 
+Zapytanie: w jakiej partii grzegorz 
+OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
+ 
+ 
+2022-02-17 04:58:34 
+Zapytanie: w jakiej partii grzegorz schetynadfsd 
+OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
+ 
+ 
+2022-02-17 04:59:11 
+Zapytanie: w jakiej partii grzegorz schetynadsf 
+OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
+ 
+ 
+2022-02-17 04:59:57 
+Zapytanie: w jakiej partii grzegorz schetynasdf 
+OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
+ 
+ 
+2022-02-17 05:00:38 
+Zapytanie: w jakiej partii grzegorz schetyna 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu koalicja obywatelska
+ 
+ 
+2022-02-17 05:00:42 
+Zapytanie: w jakiej partii grzegorz schetynasdf 
+OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
+ 
+ 
+2022-02-17 05:04:50 
+Zapytanie: if len(list_of_lastnames) == 0 and len(list_of_firstnames) > 1:  # powtórzenie imienia 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:04:57 
+Zapytanie: w jakiej partii grzegorz 
+OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
+ 
+ 
+2022-02-17 05:05:06 
+Zapytanie: w jakiej partii kaczyñski 
 OdpowiedŸ: Wiêcej ni¿ jedna osoba siê tak nazywa
  
  
-2022-02-17 04:26:58 
-Zapytanie: w jakiej partii jest jaros³aw kaczyñski 
+2022-02-17 05:05:16 
+Zapytanie: w jakiej partii jaros³aw kaczyñski 
 OdpowiedŸ: jaros³aw kaczyñski jest w ugrupowaniu prawo i sprawiedliwoœæ
+ 
+ 
+2022-02-17 05:05:39 
+Zapytanie: w jakiej partii jaros³aw kaczyñski 
+OdpowiedŸ: jaros³aw kaczyñski jest w ugrupowaniu prawo i sprawiedliwoœæ
+ 
+ 
+2022-02-17 05:05:52 
+Zapytanie: w jakiej partii jaros³awasdf 
+OdpowiedŸ: w ¿adnej partii nie ma takiej osoby
+ 
+ 
+2022-02-17 05:06:00 
+Zapytanie: w jakiej partii jsdfaros³aw kaczyñskasdi 
+OdpowiedŸ: w ¿adnej partii nie ma takiej osoby
+ 
+ 
+2022-02-17 05:08:27 
+Zapytanie:                 print(lastfirst) 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:08:38 
+Zapytanie: w jakiej partii jaros³aw kaczyñski 
+OdpowiedŸ: jaros³aw kaczyñski jest w ugrupowaniu prawo i sprawiedliwoœæ
+ 
+ 
+2022-02-17 05:09:27 
+Zapytanie: kto jest prezydentem 
+OdpowiedŸ: prezydent polski to andrzej duda
+ 
+ 
+2022-02-17 05:09:35 
+Zapytanie: kto jest rzecznikiem 
+OdpowiedŸ: rzecznik praw obywatelskich polski to marcin wi¹cek
+ 
+ 
+2022-02-17 05:09:43 
+Zapytanie: ilu pos³ów ma konfederacja 
+OdpowiedŸ: konfederacja ma w sejmie 11 pos³ów
+ 
+ 
+2022-02-17 05:10:06 
+Zapytanie: ilu jest pos³ów niezrzeszonych 
+OdpowiedŸ: Pos³ów niezrzeszonych jest w sejmie 3
+ 
+ 
+2022-02-17 05:10:13 
+Zapytanie: ile jest kobiet w sejmie 
+OdpowiedŸ: kobiet jest w sejmie 130
+ 
+ 
+2022-02-17 05:10:20 
+Zapytanie: ilu jest mê¿czyzn w sejmie 
+OdpowiedŸ: mê¿czyzn jest w sejmie 329
+ 
+ 
+2022-02-17 05:10:27 
+Zapytanie: ilu jest pos³ów 
+OdpowiedŸ: pos³ów w sejmie jest 459
+ 
+ 
+2022-02-17 05:10:33 
+Zapytanie: ilu jest pos³ów prawa i sprawiedliwoœci 
+OdpowiedŸ: prawo i sprawiedliwoœæ ma w sejmie 227 pos³ów
+ 
+ 
+2022-02-17 05:10:42 
+Zapytanie: ilu jest mê¿czyzn w partii prawo i sprawiedliwoœæ 
+OdpowiedŸ: mê¿czyzn w ugrupowaniu prawo i sprawiedliwoœæ jest 173
+ 
+ 
+2022-02-17 05:10:49 
+Zapytanie: w jakiej partii jest jaros³aw 
+OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
+ 
+ 
+2022-02-17 05:10:56 
+Zapytanie: w której partii jest jaros³aw kaczyñski 
+OdpowiedŸ: jaros³aw kaczyñski jest w ugrupowaniu prawo i sprawiedliwoœæ
+ 
+ 
+2022-02-17 05:11:02 
+Zapytanie: w jakiej¿e partii jest tomasz 
+OdpowiedŸ: Wiêcej ni¿ jedna osoba ma tak na imiê
+ 
+ 
+2022-02-17 05:11:12 
+Zapytanie: w której¿e partii jest schetyna grzegorz 
+OdpowiedŸ: grzegorz schetyna jest w ugrupowaniu koalicja obywatelska
+ 
+ 
+2022-02-17 05:11:19 
+Zapytanie: w jakim ugrupowaniu jest gonciarz 
+OdpowiedŸ: gonciarz jest w partii prawo i sprawiedliwoœæ
+ 
+ 
+2022-02-17 05:11:27 
+Zapytanie: kto jest liderem prawa i sprawiedliwoœci 
+OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego prawo i sprawiedliwoœæ jest ryszard terlecki
+ 
+ 
+2022-02-17 05:11:33 
+Zapytanie: w jakim ugrupowaniu jest gonciarz 
+OdpowiedŸ: gonciarz jest w partii prawo i sprawiedliwoœæ
+ 
+ 
+2022-02-17 05:11:40 
+Zapytanie: kto jest szefem koalicji obywatelskiej 
+OdpowiedŸ: przewodnicz¹cym ugrupowania sejmowego koalicja obywatelska jest borys budka
+ 
+ 
+2022-02-17 05:11:47 
+Zapytanie: ilu pos³ów jest w lewicy 
+OdpowiedŸ: lewica ma w sejmie 44 pos³ów
+ 
+ 
+2022-02-17 05:11:53 
+Zapytanie: ile kobiet jest w lewicy 
+OdpowiedŸ: kobiet w ugrupowaniu lewica jest 18
+ 
+ 
+2022-02-17 05:12:01 
+Zapytanie: w którym ugrupowaniu jest gawkowski 
+OdpowiedŸ: gawkowski jest w partii lewica
+ 
+ 
+2022-02-17 05:12:07 
+Zapytanie: kto jest szefem 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:12:15 
+Zapytanie: jaki 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:12:19 
+Zapytanie: kto asfd 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:12:24 
+Zapytanie: w asd aw 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:12:28 
+Zapytanie: w partia asfd 
+OdpowiedŸ: w ¿adnej partii nie ma takiej osoby
+ 
+ 
+2022-02-17 05:12:34 
+Zapytanie: w partiaas 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:12:38 
+Zapytanie: w partia 
+OdpowiedŸ: w ¿adnej partii nie ma takiej osoby
+ 
+ 
+2022-02-17 05:12:46 
+Zapytanie: kto qwefsad 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:12:50 
+Zapytanie: kto pis 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:12:56 
+Zapytanie: ilu asdfasd 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:13:00 
+Zapytanie: ile asdf 
+OdpowiedŸ: Nie rozumiem
+ 
+ 
+2022-02-17 05:13:20 
+Zapytanie: w jakim ugrupowaniu koza 
+OdpowiedŸ: w ¿adnej partii nie ma takiej osoby
  
  
