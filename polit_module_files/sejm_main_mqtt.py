@@ -5,7 +5,7 @@ import search_engine as seng
 """
 ##################################################################################################
 
-Ten plik zawiera metodę politModule() i służy do uruchomienia programu przy użyciu serwera mqtt.
+Ten plik zawiera metodę sejmModule() i służy do uruchomienia programu przy użyciu serwera mqtt.
 Dostosowany został do podłączenia do serwera Voice Assistant napisanego przez Wojciecha Węgrzynka.
 
 ##################################################################################################
@@ -28,10 +28,10 @@ def write_to_logs(query, output):
         log.write(f"{str(today)} {str(current_time)} \nZapytanie: {query} \nOdpowiedź: {output}\n \n \n")
 
 
-class politModule(VAModule):
+class sejmModule(VAModule):
     @classmethod
     def get_id(cls):
-        return "politics"
+        return "sejm"
 
     def process_query(self, query: str) -> str:
         """
@@ -53,4 +53,4 @@ class politModule(VAModule):
 
 
 if __name__ == '__main__':
-    politModule.main()
+    sejmModule.main()
